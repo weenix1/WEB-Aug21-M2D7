@@ -1,0 +1,40 @@
+/* EX1) Write a selector to target the h1 in jumbotron
+ */
+
+h1 {
+  color: red;
+}
+
+/* EX2) Write a selector to target every children of the navba */
+div.nav-scroller .nav * {
+  background-color: red;
+  text-decoration-color: blue;
+}
+
+/* EX3) Write a selector to target the "continue reading..." inside the jumbotron */
+div.jumbotron .lead a {
+  background-color: blue;
+}
+
+/* EX4) Write a selector to target the first blogpost */
+/* div.blog-post p {
+  background-color: red;
+}
+ */
+
+/*  EX5) Write a selector to target the "even" links in the navbar */
+div.nav-scroller .nav > a:nth-of-type(even) {
+  background-color: yellow;
+}
+
+/* EX6) Write a selector to target the last blog post */
+/* div.blog-post > p:last-child {
+  background-color: red;
+} */
+
+/* EX7) Write a selector to target all the li into the first ordered-list in the sidebar ( Archives ) */
+/* div.p-4 .list-unstyled * {
+  background-color: red;
+} */
+
+/* EX8) Write a selector to target the second post author */
